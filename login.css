@@ -1,11 +1,11 @@
-/* Estilos generales */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #2c6b2f;
-    color: #f4f4f4; /* Color de texto más suave para contraste */
+    color: #f4f4f4; 
 }
 
 .container {
@@ -25,7 +25,7 @@ nav a {
     font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 1px; /* Espaciado en los enlaces */
+    letter-spacing: 1px; 
     transition: color 0.3s ease;
 }
 
@@ -33,17 +33,16 @@ nav a:hover {
     color: #2c6b2f;
 }
 
-/* Estilos del logo en el header */
 header {
     display: flex;
-    justify-content: space-between; /* Asegura que el logo esté a la izquierda y la navegación a la derecha */
-    align-items: center; /* Centra verticalmente los elementos */
-    padding: 10px 20px; /* Añade un poco de espacio alrededor */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
     background-color: #2c6b2f;
 }
 
 header .logo {
-    font-size: 1.8rem; /* Reducir tamaño de fuente del logo */
+    font-size: 1.8rem; 
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -53,11 +52,11 @@ header .logo {
 }
 
 header .logo img {
-    max-height: 50px; /* Limitar la altura de la imagen del logo */
-    margin-right: 10px; /* Espacio entre el logo y el texto */
+    max-height: 50px; 
+    margin-right: 10px;
 }
 
-/* Fondo completo para la sección de login */
+
 .login {
     background-image: url('images/fondo-login.jpg');
     background-size: cover;
@@ -124,6 +123,18 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Agregado para que el enlace de registro se vea destacado */
+.register-link {
+    color: #2c6b2f;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-link:hover {
+    color: #245a23;
+}
+
 button:hover {
     background-color: #245a23;
     transform: translateY(-5px);
@@ -131,16 +142,16 @@ button:hover {
 
 .recover-password {
     display: block;
-    margin-top: 15px;
-    color: white;
+    margin-top: 10px;
+    color: #2c6b2f;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 400;
-    transition: color 0.3s ease;
 }
 
 .recover-password:hover {
-    color: #2c6b2f;
+    color: #245a23;
 }
 
 /* Responsividad */
